@@ -14,7 +14,7 @@ class LoopExercise
         // Print first two Fibonacci numbers
         Console.Write(a + " " + b + " ");
 
-        // Generate remaining terms
+        // Generate remaining numbers
         for (int i = 3; i <= n; i++)
         {
             int c = a + b;
@@ -25,7 +25,7 @@ class LoopExercise
         Console.WriteLine();
     }
 
-    // 2. Prime Number Check
+    // 2. Prime Number Check function
     static void PrimeCheck()
     {
         Console.Write("Enter number: ");
@@ -36,13 +36,13 @@ class LoopExercise
             isPrime = false;
         else
         {
-            // Check divisibility
+            // Check divisibility (basic rule of prime number)
             for (int i = 2; i <= n / 2; i++)
             {
                 if (n % i == 0)
                 {
                     isPrime = false;
-                    break; // exit loop if divisor found
+                    break; // exit loop if divisor found (Not a Prime number)
                 }
             }
         }
@@ -205,7 +205,7 @@ class LoopExercise
         }
         while (guess != secret);
 
-        Console.WriteLine("Correct! You won 🎉");
+        Console.WriteLine("Correct! You won ");
     }
 
     // 11. Digital Root
