@@ -167,7 +167,7 @@ using System.Net;
 //    public string Comments;
 // }
 
-// public class Program
+// public class Prog
 // {
 //     public static void Main(string[] args)
 //     {

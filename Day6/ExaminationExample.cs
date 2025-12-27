@@ -46,7 +46,7 @@ class Batch
     public Student Student1;
     public Student Student2;
     public Student Student3;
-    
+
     public Student Student4;
     public Student Student5;
     
@@ -88,7 +88,98 @@ class Room
 }
 
 
-class ExaminationExampleClass
+
+    class ExaminationExampleClass
 {
-    
+    public static void Run()
+    {
+        // Department
+        Department dept = new Department
+        {
+            DepartmentId = 1,
+            DepartmentName = "Computer Science"
+        };
+
+        // HOD
+        HOD hod = new HOD
+        {
+            EmployeeId = 101,
+            EmployeeName = "Dr. Sharma",
+            DepartmentId = dept.DepartmentId,
+            Responsibility = "Exam Scheduling"
+        };
+
+        // Examiner
+        Examiner examiner = new Examiner
+        {
+            EmployeeId = 201,
+            EmployeeName = "Mr. Verma",
+            DepartmentId = dept.DepartmentId,
+            IsExternal = true
+        };
+
+        // Semester
+        Semester semester = new Semester
+        {
+            SemesterId = 1,
+            SemesterNumber = 6
+        };
+
+        // Batch with students
+        Batch batch = new Batch
+        {
+            BatchId = 1,
+            BatchName = "Batch-A",
+
+            Student1 = new Student { StudentId = 1, StudentName = "Student-1", SemesterId = semester.SemesterId },
+            Student2 = new Student { StudentId = 2, StudentName = "Student-2", SemesterId = semester.SemesterId },
+            Student3 = new Student { StudentId = 3, StudentName = "Student-3", SemesterId = semester.SemesterId },
+            Student4 = new Student { StudentId = 4, StudentName = "Student-4", SemesterId = semester.SemesterId },
+            Student5 = new Student { StudentId = 5, StudentName = "Student-5", SemesterId = semester.SemesterId }
+        };
+
+        // Exam
+        Exam exam = new Exam
+        {
+            ExamId = 1001,
+            Subject = "OOPS with C#",
+            ExamDate = new DateTime(2025, 4, 10),
+            ExamTime = new TimeSpan(10, 0, 0),
+            SemesterId = semester.SemesterId,
+            DepartmentId = dept.DepartmentId,
+            CreatedByHodId = hod.EmployeeId
+        };
+
+        // Examiner Assignment
+        ExaminerAssignment assignment = new ExaminerAssignment
+        {
+            AssignmentId = 1,
+            ExamId = exam.ExamId,
+            ExaminerId = examiner.EmployeeId
+        };
+
+        // Room
+        Room room = new Room
+        {
+            RoomId = 1,
+            RoomNo = "B-204",
+            Capacity = 60
+        };
+
+        // ---------------- OUTPUT ----------------
+        Console.WriteLine("=== Examination Details ===");
+        Console.WriteLine($"Department     : {dept.DepartmentName}");
+        Console.WriteLine($"HOD            : {hod.EmployeeName}");
+        Console.WriteLine($"Exam Subject   : {exam.Subject}");
+        Console.WriteLine($"Exam Date      : {exam.ExamDate.ToShortDateString()}");
+        Console.WriteLine($"Exam Time      : {exam.ExamTime}");
+        Console.WriteLine($"Examiner       : {examiner.EmployeeName} (External: {examiner.IsExternal})");
+        Console.WriteLine($"Room           : {room.RoomNo} (Capacity: {room.Capacity})");
+        Console.WriteLine($"Batch          : {batch.BatchName}");
+    }
 }
+
+
+
+
+

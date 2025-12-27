@@ -33,7 +33,7 @@ interface IVegEatter
 
 class MultipleInheritanceClass
 {
-    public static void Main(String[] args)
+    public static void Run()
     {
         
         Visitor visitor=new Visitor();

@@ -2,6 +2,7 @@
 using ScienceLib;
 using Abstraction;
 using ExaminationExample;
+using MultipleInheritance ;
 
 class Program
 {
@@ -44,9 +45,20 @@ class Program
 
 
         //////// Day 6
-        InterfaceClass.Run();
+        // InterfaceClass.Run();
 
-        // ExaminationExampleClass.Run();
+        ExaminationExampleClass.Run();
+        // MultipleInheritanceClass.Run();
+        
+
+
+        /////// Day 7
+        // MultipleInheritance2.Run();
+
+        // GeneratePassword.Run();
+
+        // Demo.Run();
     }
+
 
 }
