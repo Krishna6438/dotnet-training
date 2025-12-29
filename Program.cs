@@ -4,6 +4,8 @@ using Abstraction;
 using ExaminationExample;
 using MultipleInheritance ;
 
+using ExamSchedule;
+
 class Program
 {
     public static void Main(String[] args)
@@ -47,7 +49,7 @@ class Program
         //////// Day 6
         // InterfaceClass.Run();
 
-        ExaminationExampleClass.Run();
+        // ExaminationExampleClass.Run();
         // MultipleInheritanceClass.Run();
         
 
@@ -58,6 +60,12 @@ class Program
         // GeneratePassword.Run();
 
         // Demo.Run();
+
+
+
+        //////// Day8 
+        // MainClass.Run();
+        IndexerExample1.Run();
     }
 
 
