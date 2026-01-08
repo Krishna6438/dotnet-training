@@ -85,7 +85,9 @@ class Program
 
 
         ////// Day 10
-        ObjectToXML.Run();
+        // ObjectToXML.Run();
+        // JsonSerialization.Run();
+        Delegates.Run();
     }
 
 
