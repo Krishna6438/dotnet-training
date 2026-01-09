@@ -87,7 +87,11 @@ class Program
         ////// Day 10
         // ObjectToXML.Run();
         // JsonSerialization.Run();
-        Delegates.Run();
+        //Delegates.Run();
+
+
+        /// Day11
+        // ReflectionExample.Run();
     }
 
 
