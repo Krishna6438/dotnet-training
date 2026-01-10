@@ -30,7 +30,7 @@ public class Enum_Example
             WeekDays today = WeekDays.Wednesday;
             Console.WriteLine("Today is: " + today);
 
-            int enumValue = (int)WeekDays.Friday;
+            //int enumValue = (int)WeekDays.Friday;
             ProductCategory category = ProductCategory.Electronics;
             Console.WriteLine("Selected category: " + category + " with value " + (int)category);
             int numValuePara = 0;

@@ -101,7 +101,8 @@ class Program
         // Enum_Example.Run();
         // Semester_Subject.Run();
 
-        AdvanceCallback.Run();
+        // AdvanceCallback.Run();
+        CustomException.Run();
     }
 
 

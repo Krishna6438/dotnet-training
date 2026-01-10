@@ -7,8 +7,8 @@
 
  <!-- 🚫 Exclude library source files from compilation -->
   <ItemGroup>
-    <Compile Remove="Day5\MathLib\**\*.cs" />
-    <Compile Remove="Day5\ScienceLib\**\*.cs" />
+    <!-- <Compile Remove="Day05\MathLib\**\*.cs" />
+    <Compile Remove="Day05\ScienceLib\**\*.cs" /> -->
   </ItemGroup>
 
   <PropertyGroup>
