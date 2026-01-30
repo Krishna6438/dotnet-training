@@ -156,7 +156,8 @@ class Program
 
 
         // Day 27
-        ExecuteStudent.Run();
+        // ExecuteStudent.Run();
+        ExecuteDelegates.Run();
 
     }
 
