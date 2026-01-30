@@ -152,7 +152,11 @@ class Program
         // YourNameIsMine.Run();
         // PasswordGeneration.Run();
         // CakeOrderRun.Run();
-        ForensicReportRun.Run();
+        // ForensicReportRun.Run();
+
+
+        // Day 27
+        ExecuteStudent.Run();
 
     }
 
