@@ -8,15 +8,16 @@ public class Student4
     public int Marks2 { get; set; }
 
     public delegate void Notify(Student4 student);
-
-    
-    public Notify? NotifyResult;
-    
     public double AverageMarks
     {
         get { return (Marks1 + Marks2) / 2.0; }
     }
 
+
+    
+    public Notify? NotifyResult;
+    
+    
     public void CheckPassOrFail()
     {
         if(AverageMarks < 33)
