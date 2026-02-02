@@ -157,7 +157,9 @@ class Program
 
         // Day 27
         // ExecuteStudent.Run();
-        ExecuteDelegates.Run();
+        // ExecuteDelegates.Run();
+
+        ParkingCharge.Run();
 
     }
 
