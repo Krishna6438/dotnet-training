@@ -3,6 +3,7 @@ using ScienceLib;
 using Abstraction;
 using ExaminationExample;
 using MultipleInheritance;
+using EmployeeManagementSystem;
 
 // using ExamSchedule;
 
@@ -164,7 +165,8 @@ class Program
         // Day 30
 
         // LibraryManagement.Run();
-        HotelManagement.Run();
+        // HotelManagement.Run();
+        EmployeeManagement.Run();
 
     }
 
