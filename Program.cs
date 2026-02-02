@@ -168,7 +168,12 @@ class Program
         // HotelManagement.Run();
         // EmployeeManagement.Run();
         // RestaurantMenu.Run();
-        EcommerceManagement.Run();
+        //EcommerceManagement.Run();
+
+
+
+        // Dotnet Assessment - M1
+        StreamBuzz.Run();
 
     }
 
