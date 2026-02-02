@@ -163,7 +163,8 @@ class Program
 
         // Day 30
 
-        LibraryManagement.Run();
+        // LibraryManagement.Run();
+        HotelManagement.Run();
 
     }
 
