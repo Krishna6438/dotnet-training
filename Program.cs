@@ -166,7 +166,8 @@ class Program
 
         // LibraryManagement.Run();
         // HotelManagement.Run();
-        EmployeeManagement.Run();
+        // EmployeeManagement.Run();
+        RestaurantMenu.Run();
 
     }
 
