@@ -7,182 +7,188 @@ using EmployeeManagementSystem;
 
 // using ExamSchedule;
 
-class Program
+namespace Capgemini
 {
-    public static void Main(String[] args)
+    class Program
     {
-        // Day01.Run();
+        public static void Main(String[] args)
+        {
+            // Day01.Run();
 
-        ///////. Day 2 
-        // Day02.Run();
-        // Day02P.Run();
+            ///////. Day 2 
+            // Day02.Run();
+            // Day02P.Run();
 
-        //// Day 3
-        // Student.Run();  // Day03
-        // Day03.Run();
-        // Inheritance.Run();
-        // Day03Practice.Run();
+            //// Day 3
+            // Student.Run();  // Day03
+            // Day03.Run();
+            // Inheritance.Run();
+            // Day03Practice.Run();
 
-        ////// Day4 
-        // LoopExercise.Run();
+            ////// Day4 
+            // LoopExercise.Run();
 
-        // MainConstructor.Run();
-        // Addition.Run();
-        // FieldsCheck.Run();
-        // CallAccount.Run();
-        // MethodOverriding.Run();
+            // MainConstructor.Run();
+            // Addition.Run();
+            // FieldsCheck.Run();
+            // CallAccount.Run();
+            // MethodOverriding.Run();
 
 
-        /// Day 5 ///////
+            /// Day 5 ///////
 
-        // Calculator calc = new Calculator();
-        // Console.WriteLine(calc.Add(10, 20));
-        //Console.WriteLine(calc.Divide(20,10));
+            // Calculator calc = new Calculator();
+            // Console.WriteLine(calc.Add(10, 20));
+            //Console.WriteLine(calc.Divide(20,10));
 
-        // Physics p = new Physics();
-        // Console.WriteLine(p.Speed(100, 5));
+            // Physics p = new Physics();
+            // Console.WriteLine(p.Speed(100, 5));
 
 
 
-        // AbstractionDemo.Run();
+            // AbstractionDemo.Run();
 
 
-        //////// Day 6
-        // InterfaceClass.Run();
+            //////// Day 6
+            // InterfaceClass.Run();
 
-        // ExaminationExampleClass.Run();
-        // MultipleInheritanceClass.Run();
+            // ExaminationExampleClass.Run();
+            // MultipleInheritanceClass.Run();
 
 
 
-        /////// Day 7
-        // MultipleInheritance2.Run();
+            /////// Day 7
+            // MultipleInheritance2.Run();
 
-        // GeneratePassword.Run();
+            // GeneratePassword.Run();
 
-        // Demo.Run();
+            // Demo.Run();
 
 
 
-        //////// Day8 
-        // MainClass.Run();
-        // IndexerExample1.Run();
-        // IndexerTask.Run();
-        // PartialClass.Run();
-        // StaticClassExample.Run();
+            //////// Day8 
+            // MainClass.Run();
+            // IndexerExample1.Run();
+            // IndexerTask.Run();
+            // PartialClass.Run();
+            // StaticClassExample.Run();
 
 
-        /////// Day9
-        // WordCountClass.Run();
-        // PalindromeClass.Run();
-        // RegexExample.Run();
-        // MemoryAllocation.Run();
-        // GarbageCollectionExample.Run();
+            /////// Day9
+            // WordCountClass.Run();
+            // PalindromeClass.Run();
+            // RegexExample.Run();
+            // MemoryAllocation.Run();
+            // GarbageCollectionExample.Run();
 
-        // MyCollection.Run();
+            // MyCollection.Run();
 
 
 
 
 
-        ////// Day 10
-        // ObjectToXML.Run();
-        // JsonSerialization.Run();
-        //Delegates.Run();
+            ////// Day 10
+            // ObjectToXML.Run();
+            // JsonSerialization.Run();
+            //Delegates.Run();
 
 
-        /// Day11
-        // ReflectionExample.Run();
+            /// Day11
+            // ReflectionExample.Run();
 
-        // Day12
+            // Day12
 
 
-        // Day 13
+            // Day 13
 
-        // Enum_Example.Run();
-        // Semester_Subject.Run();
+            // Enum_Example.Run();
+            // Semester_Subject.Run();
 
-        // AdvanceCallback.Run();
-        // CustomException.Run();
+            // AdvanceCallback.Run();
+            // CustomException.Run();
 
-        // EventExample.Run();
+            // EventExample.Run();
 
 
-        /// Day15
-        // LinqExample.Run();
+            /// Day15
+            // LinqExample.Run();
 
-        // Day 16
+            // Day 16
 
-        // Generic_Example.Run();
-        // CallerClass.Run();
+            // Generic_Example.Run();
+            // CallerClass.Run();
 
-        // DelegateExamples.Run();
+            // DelegateExamples.Run();
 
-        // ThreadingExample.Run();
+            // ThreadingExample.Run();
 
-        // Calling an async method from a non-async Main method.
-        // GetAwaiter().GetResult() blocks the current thread until the async Task completes.
-        // This is used here to ensure the async code finishes execution in a console application.
-        
-        // AsyncAwaitExample.Run().GetAwaiter().GetResult();
+            // Calling an async method from a non-async Main method.
+            // GetAwaiter().GetResult() blocks the current thread until the async Task completes.
+            // This is used here to ensure the async code finishes execution in a console application.
 
-        // FileExample.Run();
+            // AsyncAwaitExample.Run().GetAwaiter().GetResult();
 
+            // FileExample.Run();
 
 
-        // Day 17
-        // FindItem.Run();
 
-        // Day 18 
+            // Day 17
+            // FindItem.Run();
 
-        // CalculateNumbers.Run();
-        // YogaMeditation.Run();
+            // Day 18 
 
-        // Ecommerce.Run();
-        // UserAuthentication.Run();
-        // Construction.Run();
-        // UserVerification.Run();
+            // CalculateNumbers.Run();
+            // YogaMeditation.Run();
 
+            // Ecommerce.Run();
+            // UserAuthentication.Run();
+            // Construction.Run();
+            // UserVerification.Run();
 
-        // Calculator.Run();
 
+            // Calculator.Run();
 
-        /////Day 26
-        
-        // WordWand.Run();
-        // YourNameIsMine.Run();
-        // PasswordGeneration.Run();
-        // CakeOrderRun.Run();
-        // ForensicReportRun.Run();
 
+            /////Day 26
 
-        // Day 27
-        // ExecuteStudent.Run();
-        // ExecuteDelegates.Run();
+            // WordWand.Run();
+            // YourNameIsMine.Run();
+            // PasswordGeneration.Run();
+            // CakeOrderRun.Run();
+            // ForensicReportRun.Run();
 
-        // ParkingCharge.Run();
 
-        // Day 30
+            // Day 27
+            // ExecuteStudent.Run();
+            // ExecuteDelegates.Run();
 
-        // LibraryManagement.Run();
-        // HotelManagement.Run();
-        // EmployeeManagement.Run();
-        // RestaurantMenu.Run();
-        //EcommerceManagement.Run();
+            // ParkingCharge.Run();
 
+            // Day 30
 
+            // LibraryManagement.Run();
+            // HotelManagement.Run();
+            // EmployeeManagement.Run();
+            // RestaurantMenu.Run();
+            //EcommerceManagement.Run();
 
-        // Dotnet Assessment - M1
-        // StreamBuzz.Run();
-        // Robot.Run();
 
 
-        // Day31
-        // BankAccount.Run();
-        // BonusCalculator.Run();
-        LoginSystem.Run();
+            // Dotnet Assessment - M1
+            // StreamBuzz.Run();
+            // Robot.Run();
+
+
+            // Day31
+            // BankAccount.Run();
+            // BonusCalculator.Run();
+            // LoginSystem.Run();
+
+            //TopBrains
+            BankAccountTest.Run();
+
+        }
+
 
     }
-
-
 }
