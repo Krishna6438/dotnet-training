@@ -176,7 +176,7 @@ namespace Capgemini
 
             // Dotnet Assessment - M1
             // StreamBuzz.Run();
-            // Robot.Run();
+            
 
 
             // Day31
@@ -186,6 +186,7 @@ namespace Capgemini
 
             //TopBrains
             BankAccountTest.Run();
+            // Robot.Run();
 
         }
 
