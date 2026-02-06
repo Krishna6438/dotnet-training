@@ -185,8 +185,11 @@ namespace Capgemini
             // LoginSystem.Run();
 
             //TopBrains
-            BankAccountTest.Run();
+            // BankAccountTest.Run();
             // Robot.Run();
+
+            // CG Task
+            MakingAnagram.Run();
 
         }
 
