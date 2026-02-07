@@ -189,7 +189,11 @@ namespace Capgemini
             // Robot.Run();
 
             // CG Task
-            MakingAnagram.Run();
+            // MakingAnagram.Run();
+
+
+            // M1 Practice
+            ConcurrentTicketBooking.Run();
 
         }
 
