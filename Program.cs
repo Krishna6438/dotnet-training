@@ -193,8 +193,8 @@ namespace Capgemini
 
 
             // M1 Practice
-            ConcurrentTicketBooking.Run();
-
+            // ConcurrentTicketBooking.Run();
+            // ResilientPaymentGateway.Run();
         }
 
 
