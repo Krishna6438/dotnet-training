@@ -11,7 +11,7 @@ namespace Capgemini
 {
     class Program
     {
-        public static void Main(String[] args)
+        public static async Task Main(String[] args)
         {
             // Day01.Run();
 
@@ -194,7 +194,8 @@ namespace Capgemini
 
             // M1 Practice
             // ConcurrentTicketBooking.Run();
-            // ResilientPaymentGateway.Run();
+            // await ResilientPaymentGateway.Run();
+            await OrderProcessing.Run();
         }
 
 
