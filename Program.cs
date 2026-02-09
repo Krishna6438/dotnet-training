@@ -4,6 +4,7 @@ using Abstraction;
 using ExaminationExample;
 using MultipleInheritance;
 using EmployeeManagementSystem;
+using M1Practice;
 
 // using ExamSchedule;
 
@@ -195,7 +196,9 @@ namespace Capgemini
             // M1 Practice
             // ConcurrentTicketBooking.Run();
             // await ResilientPaymentGateway.Run();
-            await OrderProcessing.Run();
+            // await OrderProcessing.Run();
+
+            EmployeeOnboarding.Run();
         }
 
 
