@@ -198,7 +198,8 @@ namespace Capgemini
             // await ResilientPaymentGateway.Run();
             // await OrderProcessing.Run();
 
-            EmployeeOnboarding.Run();
+            // EmployeeOnboarding.Run();
+            EmailValidation.Run();
         }
 
 
