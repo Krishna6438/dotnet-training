@@ -199,7 +199,8 @@ namespace Capgemini
             // await OrderProcessing.Run();
 
             // EmployeeOnboarding.Run();
-            EmailValidation.Run();
+            // EmailValidation.Run();
+            ReverseString.Run();
         }
 
 
