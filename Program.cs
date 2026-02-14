@@ -201,7 +201,18 @@ namespace Capgemini
             // EmployeeOnboarding.Run();
             // EmailValidation.Run();
             // ReverseString.Run();
-            StringInputConversion.Run();        }
+            // StringInputConversion.Run();        
+
+
+
+            // Collection Practice
+            // ECommerce.Run();
+
+
+            // SortedDictionary Practice
+            MedicineUtility.Run();
+            
+        }
 
 
     }
