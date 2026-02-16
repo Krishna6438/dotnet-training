@@ -16,17 +16,17 @@ namespace Capgemini
         {
             // Day01.Run();
 
-            ///////. Day 2 
+            ///////. Day 2.  ////////////
             // Day02.Run();
             // Day02P.Run();
 
-            //// Day 3
+            //// Day 3 //////////////////// 
             // Student.Run();  // Day03
             // Day03.Run();
             // Inheritance.Run();
             // Day03Practice.Run();
 
-            ////// Day4 
+            ////// Day4  ///////////////
             // LoopExercise.Run();
 
             // MainConstructor.Run();
@@ -36,7 +36,7 @@ namespace Capgemini
             // MethodOverriding.Run();
 
 
-            /// Day 5 ///////
+            /// Day 5 //////////////////////
 
             // Calculator calc = new Calculator();
             // Console.WriteLine(calc.Add(10, 20));
@@ -50,7 +50,7 @@ namespace Capgemini
             // AbstractionDemo.Run();
 
 
-            //////// Day 6
+            //////// Day 6 /////////////////////
             // InterfaceClass.Run();
 
             // ExaminationExampleClass.Run();
@@ -58,7 +58,7 @@ namespace Capgemini
 
 
 
-            /////// Day 7
+            /////// Day 7. /////////////////////////
             // MultipleInheritance2.Run();
 
             // GeneratePassword.Run();
@@ -67,7 +67,7 @@ namespace Capgemini
 
 
 
-            //////// Day8 
+            //////// Day8  ////////////////////////
             // MainClass.Run();
             // IndexerExample1.Run();
             // IndexerTask.Run();
@@ -75,7 +75,7 @@ namespace Capgemini
             // StaticClassExample.Run();
 
 
-            /////// Day9
+            /////// Day9.  ////////////////////
             // WordCountClass.Run();
             // PalindromeClass.Run();
             // RegexExample.Run();
@@ -88,19 +88,19 @@ namespace Capgemini
 
 
 
-            ////// Day 10
+            ////// Day 10. ///////////////////
             // ObjectToXML.Run();
             // JsonSerialization.Run();
             //Delegates.Run();
 
 
-            /// Day11
+            /// Day11 ///////////////////
             // ReflectionExample.Run();
 
-            // Day12
+            // Day12. ////////////////////
 
 
-            // Day 13
+            // Day 13 ///////////////////// 
 
             // Enum_Example.Run();
             // Semester_Subject.Run();
@@ -111,10 +111,10 @@ namespace Capgemini
             // EventExample.Run();
 
 
-            /// Day15
+            /// Day15 //////////////////////
             // LinqExample.Run();
 
-            // Day 16
+            // Day 16 //////////////////////////////////
 
             // Generic_Example.Run();
             // CallerClass.Run();
@@ -133,10 +133,10 @@ namespace Capgemini
 
 
 
-            // Day 17
+            // Day 17 ////////////////////
             // FindItem.Run();
 
-            // Day 18 
+            // Day 18  ///////////////////////
 
             // CalculateNumbers.Run();
             // YogaMeditation.Run();
@@ -150,7 +150,7 @@ namespace Capgemini
             // Calculator.Run();
 
 
-            /////Day 26
+            /////Day 26 ////////////////////////
 
             // WordWand.Run();
             // YourNameIsMine.Run();
@@ -159,13 +159,13 @@ namespace Capgemini
             // ForensicReportRun.Run();
 
 
-            // Day 27
+            // Day 27. //////////////////////
             // ExecuteStudent.Run();
             // ExecuteDelegates.Run();
 
             // ParkingCharge.Run();
 
-            // Day 30
+            // Day 30.  //////////////////////
 
             // LibraryManagement.Run();
             // HotelManagement.Run();
@@ -175,25 +175,26 @@ namespace Capgemini
 
 
 
-            // Dotnet Assessment - M1
+            // Dotnet Assessment - M1 //////////////////////
             // StreamBuzz.Run();
             
 
 
-            // Day31
+            //  Day31. ///////////////////////////
+
             // BankAccount.Run();
             // BonusCalculator.Run();
             // LoginSystem.Run();
 
-            //TopBrains
+            //. TopBrains.  /////////////////////
             // BankAccountTest.Run();
             // Robot.Run();
 
-            // CG Task
+            //   CG Task /////////////////////////////
             // MakingAnagram.Run();
 
 
-            // M1 Practice
+            ///////////// M1 Practice //////////////////
             // ConcurrentTicketBooking.Run();
             // await ResilientPaymentGateway.Run();
             // await OrderProcessing.Run();
@@ -205,14 +206,19 @@ namespace Capgemini
 
 
 
-            // Collection Practice
+            // Collection Practice ///////////////
             // ECommerce.Run();
 
 
-            // SortedDictionary Practice
-            MedicineUtility.Run();
+            // SortedDictionary Practice  ///////////////
+
+            // MedicineUtility.Run();
             // StudentUtility.Run();
-            
+
+
+            // Generic & Collection ////////////////////////////
+            UniversityCourse.Run();
+        
         }
 
 
