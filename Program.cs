@@ -229,7 +229,8 @@ namespace Capgemini
 
             /// Generics & Delegates
             // GenericSwap.Run();
-            GenericRepo.Run();
+            // GenericRepo.Run();
+            GenericConstraints.Run();
         
         }
 
