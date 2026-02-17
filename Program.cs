@@ -234,7 +234,12 @@ namespace Capgemini
             // GenericCalculator.Run();
             // GenericList.Run();
             // MultiCastDelegates.Run();
-            GenericSum.Run();
+            // GenericSum.Run();
+
+
+            // Campus Hire /////////////////////////
+            CampusHire.Run();
+
         
         }
 
