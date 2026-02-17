@@ -219,7 +219,8 @@ namespace Capgemini
 
             // Generic & Collection ////////////////////////////
             // UniversityCourse.Run();
-            ECommerceInventory.Run();
+            // ECommerceInventory.Run();
+            HospitalManagement.Run();
         
         }
 
