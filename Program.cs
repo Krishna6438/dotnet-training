@@ -7,6 +7,7 @@ using EmployeeManagementSystem;
 using M1Practice;
 using ECommerceInventorySystem;
 using LibraryManagementSystem;
+using ECommerceShoppingCart;
 
 // using ExamSchedule;
 
@@ -222,7 +223,13 @@ namespace Capgemini
             // UniversityCourse.Run();
             // ECommerceInventory.Run();
             // HospitalManagement.Run();
-            LibraryManagementClass.Run();
+            // LibraryManagementClass.Run();
+            // EcommerceShoppingCartClass.Run();
+
+
+            /// Generics & Delegates
+            // GenericSwap.Run();
+            GenericRepo.Run();
         
         }
 
