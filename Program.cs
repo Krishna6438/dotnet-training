@@ -231,7 +231,10 @@ namespace Capgemini
             // GenericSwap.Run();
             // GenericRepo.Run();
             // GenericConstraints.Run();
-            GenericCalculator.Run();
+            // GenericCalculator.Run();
+            // GenericList.Run();
+            // MultiCastDelegates.Run();
+            GenericSum.Run();
         
         }
 
