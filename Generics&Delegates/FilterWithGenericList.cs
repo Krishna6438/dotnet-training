@@ -17,10 +17,10 @@ public class GenericList
     // ✅ TODO: Students implement only this function
     public static List<T> Filter<T>(List<T> items, Predicate<T> match)
     {
-        // var result = items.Where(s=>match(s)).ToList();
-        // return result.Count==0?default:result;
+        var result = items.Where(s=>match(s)).ToList();
+        return result.Count==0?default:result;
 
-        return items.Where(s=>match(s)).ToList();
+        
 
     }
 }
