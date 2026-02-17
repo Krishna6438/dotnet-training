@@ -6,6 +6,7 @@ using MultipleInheritance;
 using EmployeeManagementSystem;
 using M1Practice;
 using ECommerceInventorySystem;
+using LibraryManagementSystem;
 
 // using ExamSchedule;
 
@@ -220,7 +221,8 @@ namespace Capgemini
             // Generic & Collection ////////////////////////////
             // UniversityCourse.Run();
             // ECommerceInventory.Run();
-            HospitalManagement.Run();
+            // HospitalManagement.Run();
+            LibraryManagementClass.Run();
         
         }
 
