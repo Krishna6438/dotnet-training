@@ -9,6 +9,7 @@ using ECommerceInventorySystem;
 using LibraryManagementSystem;
 using ECommerceShoppingCart;
 using ItTechGenie.M1.OOP.Q2;
+using ItTechGenie.M1.OOP.Q3;
 
 // using ExamSchedule;
 
@@ -243,7 +244,8 @@ namespace Capgemini
 
 
             /// OOPS Practice ////////////////////////////
-            PayrollSystem.Run();
+            // PayrollSystem.Run();
+            VehicleRental.Run();
 
         
         }
