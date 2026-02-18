@@ -5,7 +5,7 @@ using System;
 // Interface ref = new Class(); // ✅
 // Class obj = new Interface(); // ❌
 
-public interface Print
+public interface IPrint
 {
     // public void Display(). // Interface is abstract by default
     // {
@@ -15,7 +15,7 @@ public interface Print
     public void Display();
 }
 
-class InterfaceClass : Print
+class InterfaceClass : IPrint
 {
     public void Display()
     {
@@ -23,7 +23,7 @@ class InterfaceClass : Print
     }
     public static void Run()
     {
-        Print p = new InterfaceClass();
+        IPrint p = new InterfaceClass();
         p.Display();
     }    
 }
