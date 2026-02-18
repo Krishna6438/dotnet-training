@@ -8,6 +8,7 @@ using M1Practice;
 using ECommerceInventorySystem;
 using LibraryManagementSystem;
 using ECommerceShoppingCart;
+using ItTechGenie.M1.OOP.Q2;
 
 // using ExamSchedule;
 
@@ -238,7 +239,11 @@ namespace Capgemini
 
 
             // Campus Hire /////////////////////////
-            CampusHire.Run();
+            // CampusHire.Run();
+
+
+            /// OOPS Practice ////////////////////////////
+            PayrollSystem.Run();
 
         
         }
@@ -246,3 +251,7 @@ namespace Capgemini
 
     }
 }
+
+
+
+
