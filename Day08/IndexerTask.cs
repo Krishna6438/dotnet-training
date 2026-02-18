@@ -10,7 +10,7 @@ class Student
     public string Name { get; set; }
 
     // Private field (encapsulation)
-    private string address;
+    private string Address;
 
     // Private collection for books
     private List<string> books = new List<string>();
@@ -20,7 +20,7 @@ class Student
     {
         RollNo = rollNo;
         Name = name;
-        this.address = address;
+        Address = address;
     }
 
     // Indexer with validation
@@ -51,7 +51,7 @@ class Student
     // Display method
     public void DisplayInfo()
     {
-        Console.WriteLine($"Roll No: {RollNo}, Name: {Name}, Address: {address}");
+        Console.WriteLine($"Roll No: {RollNo}, Name: {Name}, Address: {Address}");
     }
 
     // Display all books
